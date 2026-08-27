@@ -1,0 +1,36 @@
+es_mas_alto(X,john).
+
+
+X = catherine 	[1m;[0m
+X = mark.
+
+es_mas_alto(X,Y).
+
+
+X = john,
+Y = luke 	[1m;[0m
+X = john,
+Y = marie 	[1m;[0m
+X = martine,
+Y = marie 	[1m;[0m
+X = catherine,
+Y = john 	[1m;[0m
+X = mark,
+Y = john 	[1m;[0m
+X = mark,
+Y = martine.
+
+es_mas_alto(mark,X).
+
+
+X = john 	[1m;[0m
+X = martine.
+
+es_mas_alto(catherine,Y), es_mas_alto(Y,Z).
+
+
+Y = john,
+Z = luke 	[1m;[0m
+Y = john,
+Z = marie.
+

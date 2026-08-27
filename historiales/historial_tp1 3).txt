@@ -1,0 +1,318 @@
+vuelo(A,paris,B,C,D).
+
+
+[1;31mERROR: Unknown procedure: user:vuelo/5
+ERROR:     However, there are definitions for:
+ERROR:         vuelo/6
+[0m[1;31mfalse.[0m
+
+vuelo(A,paris,B,C,D,E).
+
+
+A = 2,
+B = toronto,
+C = 1400,
+D = 1525,
+E = 245 	[1m;[0m
+[1;31mfalse.[0m
+
+vuelo(A,toronto,B,C,D,E).
+
+
+A = 1,
+B = montreal,
+C = 1200,
+D = 1300,
+E = 42 	[1m;[0m
+A = 3,
+B = otawa,
+C = 1345,
+D = 1500,
+E = 234 	[1m;[0m
+[1;31mfalse.[0m
+
+vuelo(A,B,toronto,C,D,E).
+
+
+A = 2,
+B = paris,
+C = 1400,
+D = 1525,
+E = 245.
+
+vuelo(A,toronto,1230>,C,D,E).
+
+
+[1;31mERROR: Syntax error: Unbalanced operator
+ERROR: vuelo(A,toronto,1230
+ERROR: ** here **
+ERROR: >,C,D,E) . 
+[0mvuelo(A,toronto,B,C,D,E) > 1230.
+
+
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [12] [0m[0m[1;31m[34mvuelo(_228,toronto,_232,_234,_236,_238)>1230[0m[0m[1;31m
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,toronto,B,C,D,E), C > 1230.
+
+
+A = 3,
+B = otawa,
+C = 1345,
+D = 1500,
+E = 234 	[1m;[0m
+[1;31mfalse.[0m
+
+vuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F) F > 100.
+
+
+[1;31mERROR: Syntax error: Operator expected
+ERROR: vuelo(A,B,C,D,E,F)
+ERROR: ** here **
+ERROR:  F > 100 . 
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mvuelo(A,B,C,D,E,F), F > 100.
+
+
+[1;31mERROR: Arithmetic: `plazas/0' is not a function
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mplazas>100[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mlisting(vuelo).
+
+
+vuelo(numero, origen, destino, hora_salida, hora_arribo, plazas).
+vuelo(1, toronto, montreal, 1200, 1300, 42).
+vuelo(2, paris, toronto, 1400, 1525, 245).
+vuelo(3, toronto, otawa, 1345, 1500, 234).
+vuelo(4, vancuver, roma, 920, 1100, 51).
+vuelo(5, montreal, mexico, 1030, 1250, 58).
+
+[1mtrue.[0m
+
+halt.
+
+
+vuelo(A,B,C,D,E,F), F > 100.
+
+
+A = 2,
+B = paris,
+C = toronto,
+D = 1400,
+E = 1525,
+F = 245 	[1m;[0m
+A = 3,
+B = toronto,
+C = otawa,
+D = 1345,
+E = 1500,
+F = 234 	[1m;[0m
+[1;31mfalse.[0m
+
+vuelo(A,B,C,D,E,F), :- E-D.
+
+
+[1;31mERROR: Syntax error: Operator priority clash
+ERROR: vuelo(A,B,C,D,E,F)
+ERROR: ** here **
+ERROR: , :- E-D . 
+[0mvuelo(A,B,C,D,E,F), :- (E-D).
+
+
+[1;31mERROR: Syntax error: Operator priority clash
+ERROR: vuelo(A,B,C,D,E,F)
+ERROR: ** here **
+ERROR: , :- (E-D) . 
+[0mvuelo(A,B,C,D,E,F),  E-D>2.
+
+
+A = 1,
+B = toronto,
+C = montreal,
+D = 1200,
+E = 1300,
+F = 42 	[1m;[0m
+A = 2,
+B = paris,
+C = toronto,
+D = 1400,
+E = 1525,
+F = 245 	[1m;[0m
+A = 3,
+B = toronto,
+C = otawa,
+D = 1345,
+E = 1500,
+F = 234 	[1m;[0m
+A = 4,
+B = vancuver,
+C = roma,
+D = 920,
+E = 1100,
+F = 51 	[1m;[0m
+A = 5,
+B = montreal,
+C = mexico,
+D = 1030,
+E = 1250,
+F = 58.
+
+vuelo(A,B,C,D,E,F), B,C.
+
+
+[1;31mERROR: Unknown procedure: toronto/0
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mtoronto[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'('<garbage_collected>')[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call('<garbage_collected>')[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) toronto ? creep
+vuelo(A,B,C,D,E,F), B,C.
+
+
+[1;31mERROR: Unknown procedure: toronto/0
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mtoronto[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) toronto ? 	creep
+vuelo(A,B,C,D,E,F), B,C.
+
+
+[1;31mERROR: Unknown procedure: toronto/0
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mtoronto[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34m'<meta-call>'(user:user: ...)[0m[0m[1;31m <foreign>
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) toronto ? 	creep
+vuelo(A,B,C,D,E,F), vuelo(G,C,H,I,J,K).
+
+
+A = 1,
+B = toronto,
+C = montreal,
+D = 1200,
+E = 1300,
+F = 42,
+G = 5,
+H = mexico,
+I = 1030,
+J = 1250,
+K = 58 	[1m;[0m
+A = 2,
+B = paris,
+C = toronto,
+D = 1400,
+E = 1525,
+F = 245,
+G = 1,
+H = montreal,
+I = 1200,
+J = 1300,
+K = 42 	[1m;[0m
+A = 2,
+B = paris,
+C = toronto,
+D = 1400,
+E = 1525,
+F = 245,
+G = 3,
+H = otawa,
+I = 1345,
+J = 1500,
+K = 234 	[1m;[0m
+[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+vuelo(A,B,C,D,E,F).
+
+
+A = 1,
+B = toronto,
+C = montreal,
+D = 1200,
+E = 1300,
+F = 42 	[1m;[0m
+A = 2,
+B = paris,
+C = toronto,
+D = 1400,
+E = 1525,
+F = 245 	[1m;[0m
+A = 3,
+B = toronto,
+C = otawa,
+D = 1345,
+E = 1500,
+F = 234 	[1m;[0m
+A = 4,
+B = vancuver,
+C = roma,
+D = 920,
+E = 1100,
+F = 51 	[1m;[0m
+A = 5,
+B = montreal,
+C = mexico,
+D = 1030,
+E = 1250,
+F = 58.
+
+make.
+
+
+[1mtrue.[0m
+

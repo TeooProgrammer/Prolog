@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Ejecutar Prolog con historial",
+            "type": "process",
+            "command": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+            "args": [
+                "-s",
+                "${workspaceFolder}\\prolog_logger.pl",
+                "-s",
+                "${file}",
+                "-g",
+                "iniciar_historial('historiales/historial_${fileBasenameNoExtension}.txt')"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "focus": true
+            }
+        }
+    ]
+}

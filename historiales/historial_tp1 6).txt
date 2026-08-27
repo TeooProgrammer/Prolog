@@ -1,0 +1,25 @@
+alumno_de(X,Y).
+
+
+X = juan,
+Y = ana 	[1m;[0m
+X = pedro,
+Y = ana 	[1m;[0m
+X = laura,
+Y = carlos 	[1m;[0m
+X = sofia,
+Y = carlos 	[1m;[0m
+X = martin,
+Y = maria.
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp1 6) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
