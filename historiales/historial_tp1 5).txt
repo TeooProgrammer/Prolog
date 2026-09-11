@@ -772,3 +772,67 @@ bisabuela(X,Y).
 
 [1;31mfalse.[0m
 
+?- X is abs(-7.88).
+
+
+[1;31mERROR: Unknown procedure: (?-)/1
+ERROR:   ?- is the Prolog prompt
+ERROR:   See FAQ at https://www.swi-prolog.org/FAQ/ToplevelMode.html
+ERROR: In:
+ERROR: [1m  [11] [0m[0m[1;31m[34mthrow(error(existence_error(procedure,...),_19354))[0m[0m[1;31m
+ERROR: [1m   [8] [0m[0m[1;31m[34mcorrect_goal((?-_19398 is ...),user,['X'=_19412],_19390)[0m[0m[1;31m at c:/program files/swipl/boot/dwim.pl:92
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0mX is abs(-7.88).
+
+
+X = 7.8.
+
+X is min(9,2*3+1).
+
+
+X = 7.
+
+X is random(10).
+
+
+X = 9.
+
+X is random(10).
+
+
+X = 1.
+
+X is round(2.665), X =:= 13 mod 10.
+
+
+X = 3.
+
+6=4+2.
+
+
+[1;31mfalse.[0m
+
+6 is 4+2.
+
+
+[1mtrue.[0m
+
+N is 4+2.
+
+
+N = 6.
+
+N is N+1.
+
+
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [12] [0m[0m[1;31m[34m_27498 is _27504+1[0m[0m[1;31m
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mmake.
+
+
+[1mtrue.[0m
+

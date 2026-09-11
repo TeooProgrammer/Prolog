@@ -137,3 +137,8 @@ conoce_amigo(C,caro).
 C = pedro 	[1m;[0m
 C = pedro.
 
+make.
+
+
+[1mtrue.[0m
+

@@ -1,3 +1,5 @@
+/*flia_num es del 8) */
+/* es_par(N) :- Nmee2==0. */
 
 hijo(caro,luis).
 hijo(juan,luis).
@@ -22,3 +24,4 @@ abuelo(X,Y) :- padre(X,Z), hijo(Y,Z).
 abuela(X,Y) :- madre(X,Z), hijo(Y,Z).
 bisabuelo(X,Y) :- padre(X,Z), hijo(W,Z), hijo(Y,W).
 bisabuela(X,Y) :- madre(X,Z), hijo(W,Z), hijo(Y,W).
+flia_num(X) :- padre(X,Y), padre(X,Z), padre(X,W).

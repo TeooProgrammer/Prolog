@@ -1,0 +1,42 @@
+make.
+
+
+[1mtrue.[0m
+
+?- densidad(provincia_a, D).
+
+
+[1;31mERROR: Unknown procedure: (?-)/1
+ERROR:   ?- is the Prolog prompt
+ERROR:   See FAQ at https://www.swi-prolog.org/FAQ/ToplevelMode.html
+ERROR: In:
+ERROR: [1m  [11] [0m[0m[1;31m[34mthrow(error(existence_error(procedure,...),_180))[0m[0m[1;31m
+ERROR: [1m   [8] [0m[0m[1;31m[34mcorrect_goal((?-densidad(provincia_a,_226)),user,['D'=_238],_216)[0m[0m[1;31m at c:/program files/swipl/boot/dwim.pl:92
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0mdensidad(provincia_a, D).
+
+
+[1;31mERROR: Unknown procedure: densidad/2 (DWIM could not correct goal)
+[0mmake.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp2 10).pl:6:
+Warning:    Clauses of [34mpoblacion/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp2 10).pl:3
+Warning:    Current predicate: [34msuperficie/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous poblacion/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp2 10).pl:9:
+Warning:    Clauses of [34msuperficie/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp2 10).pl:4
+Warning:    Current predicate: [34mpoblacion/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous superficie/2.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp2 10) compiled 0.02 sec, 1 clauses
+[0m[1mtrue.[0m
+
+densidad(provincia_a, D).
+
+
+D = 10.
+
