@@ -1,0 +1,119 @@
+imprimir_aleatorios(10).
+
+
+52486726779431003959
+[1mtrue [0m.[1m.[0m
+
+making.
+
+
+[1;31mERROR: Unknown procedure: making/0 (DWIM could not correct goal)
+[0mmake.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 1) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+imprimir_aleatorios(10).
+
+
+54
+22
+58
+16
+27
+66
+38
+24
+55
+66
+[1mtrue [0m.[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:24:1 Syntax error: Unexpected end of clause
+[0m
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+imprimir_aleatorios().
+
+
+[1;31mERROR: Unknown procedure: user:imprimir_aleatorios/0
+ERROR:     However, there are definitions for:
+ERROR:         imprimir_aleatorios/1
+[0m[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+imprimir_aleatorios(N).
+
+
+N = 0 .[1m.[0m
+
+imprimir_aleatorios(N).
+
+
+N = 0 .[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:10:1 Syntax error: Unexpected end of clause
+[0m
+imprimir_aleatorios(10).
+
+
+6
+60
+3
+19
+41
+69
+45
+63
+72
+21
+[1mtrue [0m.[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:27:1 Syntax error: Unexpected end of clause
+[0m
+imprimir_aleatorios(10).
+
+
+40
+43
+34
+32
+31
+41
+60
+36
+32
+38
+[1mtrue [0m[1m.[0m
+

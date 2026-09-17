@@ -1,0 +1,168 @@
+inicio().
+
+
+Ingrese un numero: 7.
+*
+**
+***
+****
+*****
+******
+*******
+[1mtrue [0m
+[1m.[0m
+
+inicio().
+
+
+Ingrese un numero: 0
+.
+
+[1mtrue [0m
+[1m.[0m
+
+inicio().99
+.
+
+
+[1;31mERROR: Unknown procedure: user:('.')/2
+ERROR:     However, there are definitions for:
+ERROR:         ('.')/3
+[0m[1;31mfalse.[0m
+
+inicio().99
+.
+
+
+[1;31mERROR: Unknown procedure: user:('.')/2
+ERROR:     However, there are definitions for:
+ERROR:         ('.')/3
+[0m[1;31mfalse.[0m
+
+inicio().
+
+
+Ingrese un numero: 9.
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+[1mtrue [0m
+[1m.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 4) compiled 0.00 sec, 0 clauses
+[0m[31mWarning: The predicates below are not defined. If these are defined
+Warning: at runtime using assert/1, use :- dynamic Name/Arity.
+Warning: 
+Warning: [34mformatln/1[0m[0m[31m, which is referenced by
+Warning: 	c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4: 1-st clause of inicio/0
+[0m[1mtrue.[0m
+
+inicio().
+
+
+[1;31mERROR: Unknown procedure: formatln/1
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mformatln('Ingrese un numero: ')[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34minicio[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) formatln('Ingrese un numero: ') ? 33creep
+inicio().
+
+
+[1;31mERROR: Unknown procedure: formatln/1
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mformatln('Ingrese un numero: ')[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34minicio[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) formatln('Ingrese un numero: ') ? .No previous search
+   [1;35mException: [0m(13) formatln('Ingrese un numero: ') ? creep
+make.
+
+
+[31mWarning: The predicates below are not defined. If these are defined
+Warning: at runtime using assert/1, use :- dynamic Name/Arity.
+Warning: 
+Warning: [34mformatln/1[0m[0m[31m, which is referenced by
+Warning: 	c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4: 1-st clause of inicio/0
+[0m[1mtrue.[0m
+
+inicio().
+
+
+[1;31mERROR: Unknown procedure: formatln/1
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mformatln('Ingrese un numero: ')[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34minicio[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) formatln('Ingrese un numero: ') ? .No previous search
+   [1;35mException: [0m(13) formatln('Ingrese un numero: ') ? creep
+make.
+
+
+[31mWarning: The predicates below are not defined. If these are defined
+Warning: at runtime using assert/1, use :- dynamic Name/Arity.
+Warning: 
+Warning: [34mformatln/1[0m[0m[31m, which is referenced by
+Warning: 	c:/users/mateo/onedrive/documentos/prolog/tp4 4).pl:4: 1-st clause of inicio/0
+[0m[1mtrue.[0m
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 4) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+inicio().
+
+
+Ingrese un numero: 
+5
+.
+*
+**
+***
+****
+*****
+[1mtrue [0m
+[1m.[0m
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 4) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+inicio().
+
+
+Ingrese un numero: 8.
+*
+**
+***
+****
+*****
+******
+*******
+********
+[1mtrue [0m
+[1m.[0m
+
+make.
+
+
+[1mtrue.[0m
+
