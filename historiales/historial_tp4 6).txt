@@ -19,3 +19,34 @@ make.
 suma_digitos(67,9).
 
 
+suma_digitos(45,S).
+
+
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 	[1m;[0m
+S = 9 .[1m.[0m
+
+suma_digitos(45,S).
+
+
+S = 9 .[1m.[0m
+
+suma_digitos(45,S).
+
+
+S = 9 .[1m.[0m
+
