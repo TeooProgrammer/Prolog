@@ -166,3 +166,39 @@ make.
 
 [1mtrue.[0m
 
+inicio().
+
+
+Ingrese un numero: 1
+.
+*
+[1mtrue [0m
+[1m.[0m
+
+trace.
+
+
+[1mtrue.[0m
+
+debug.
+
+
+   [1;32mCall: [0m(12) edinburgh:debug ? .No previous search
+   [1;32mCall: [0m(12) edinburgh:debug ? .No previous search
+   [1;32mCall: [0m(12) edinburgh:debug ? .No previous search
+   [1;32mCall: [0m(12) edinburgh:debug ? .No previous search
+   [1;32mCall: [0m(12) edinburgh:debug ? .No previous search
+   [1;32mCall: [0m(12) edinburgh:debug ? creep
+   [1;32mCall: [0m(13) set_prolog_flag(debug, true) ? creep
+   [1;32mExit: [0m(13) set_prolog_flag(debug, true) ? creep
+   [1;32mExit: [0m(12) edinburgh:debug ? 	creep
+[1mtrue.[0m
+
+graphic debug.
+
+
+[1;31mERROR: Syntax error: Operator expected
+ERROR: graphic
+ERROR: ** here **
+ERROR:  debug . 
+[0m

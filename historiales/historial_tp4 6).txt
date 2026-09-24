@@ -1,0 +1,21 @@
+suma_digitos(N,S).
+
+
+N = S, S = 0 .[1m.[0m
+
+suma_digitos(N,S).
+
+
+N = S, S = 0 [1m.[0m
+
+suma_digitos(3,8).
+
+
+make.
+
+
+[1mtrue.[0m
+
+suma_digitos(67,9).
+
+
