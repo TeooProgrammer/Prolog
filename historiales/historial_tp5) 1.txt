@@ -16,4 +16,23 @@ ERROR: In:
 ERROR: [1m  [13] [0m[0m[1;31m[34massertz(persona(carlos))[0m[0m[1;31m
 ERROR: [1m  [12] [0m[0m[1;31m[34mincorporar([persona(carlos),...])[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp5) 1.pl:6
 ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
-[0m
+[0mmake.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp5) 1 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+incorporar([persona(carlos), persona(maria)]).
+
+
+[1mtrue.[0m
+
+persona(X).
+
+
+X = juan 	[1m;[0m
+X = ana 	[1m;[0m
+X = pedro 	[1m;[0m
+X = carlos 	[1m;[0m
+X = maria.
+
