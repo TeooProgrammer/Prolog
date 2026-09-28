@@ -1,0 +1,19 @@
+incorporar([persona(carlos), persona(maria)]).
+
+
+[1;31mERROR: No permission to modify static procedure `persona/1'
+ERROR: Defined at c:/users/mateo/onedrive/documentos/prolog/tp5) 1.pl:2
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34massertz(persona(carlos))[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34mincorporar([persona(carlos),...])[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp5) 1.pl:6
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mincorporar([persona(carlos), persona(maria)]).
+
+
+[1;31mERROR: No permission to modify static procedure `persona/1'
+ERROR: Defined at c:/users/mateo/onedrive/documentos/prolog/tp5) 1.pl:2
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34massertz(persona(carlos))[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34mincorporar([persona(carlos),...])[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp5) 1.pl:6
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m
