@@ -1,0 +1,18 @@
+ultimos(2, [a,b,c,d,e], R).
+
+
+R = [d, e] 	[1m;[0m
+[1;31mfalse.[0m
+
+ultimos(2, [a,b,c,d,e,89,90,123], R).
+
+
+R = [90, 123] 	[1m;[0m
+[1;31mfalse.[0m
+
+ultimos(4, [a,b,c,d,e,89,90,123], R).
+
+
+R = [e, 89, 90, 123] 	[1m;[0m
+[1;31mfalse.[0m
+
