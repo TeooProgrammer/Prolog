@@ -275,3 +275,15 @@ obtenerLicencia(X).
    [1;32mExit: [0m(12) obtenerLicencia(micaela) ? creep
 X = micaela [1m.[0m
 
+['parcial 2024.pl'].
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:8:10: Syntax error: Operator expected
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:14:4: Syntax error: Operator expected
+[0m[1mtrue.[0m
+
+['visualizador.pl'].
+
+
+[1mtrue.[0m
+
