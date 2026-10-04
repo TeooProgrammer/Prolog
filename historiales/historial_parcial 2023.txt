@@ -1,0 +1,235 @@
+make.
+
+
+[1mtrue.[0m
+
+mostrar(Y).
+
+
+java
+Y = linux .[1m.[0m
+
+mostrar(Y).
+
+
+java
+Y = linux 	[1m;[0m
+java
+Y = windows 	[1m;[0m
+java
+Y = ios 	[1m;[0m
+php
+Y = linux 	[1m;[0m
+php
+Y = windows 	[1m;[0m
+html
+Y = ios 	[1m;[0m
+html
+Y = windows 	[1m;[0m
+python
+Y = windows.
+
+mostrar(X,Y).
+
+
+[1;31mERROR: Unknown procedure: user:mostrar/2
+ERROR:     However, there are definitions for:
+ERROR:         mostrar/1
+[0m[1;31mfalse.[0m
+
+lpso(windows).
+
+
+[1;31mERROR: Unknown procedure: user:lpso/1
+ERROR:     However, there are definitions for:
+ERROR:         lpso/2
+[0m[1;31mfalse.[0m
+
+lpso(X,windows).
+
+
+X = java .[1m.[0m
+
+lpso(X,windows).
+
+
+X = java [1m.[0m
+
+varios_so('lenguaje').
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mvarios_so('lenguaje').
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mvarios_so(X).
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mvarios_so(X).
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mmake.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:0:1: Syntax error: End of file in /* ... */ comment
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+varios_so(X).
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mvarios_so('lenguaje').
+
+
+[1;31mERROR: Unknown procedure: varios_so/1 (DWIM could not correct goal)
+[0mmake.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 7 clauses
+[0m[1mtrue.[0m
+
+varios_so(X).
+
+
+X = java }
+Unknown action: } (h for help)
+Action? 	[1m;[0m
+X = java 	[1m;[0m
+X = java .[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:82:1 Syntax error: Unexpected end of clause
+[0m
+varios_so(X).
+
+
+X = java .[1m.[0m
+
+varios_so(X).
+
+
+X = java 	[1m;[0m
+X = java 	[1m;[0m
+X = java 	[1m;[0m
+X = java 	[1m;[0m
+X = java 	[1m;[0m
+X = java 	[1m;[0m
+X = php 	[1m;[0m
+X = php 	[1m;[0m
+X = html 	[1m;[0m
+X = html 	[1m;[0m
+[1;31mfalse.[0m
+
+varios_so('lenguaje').
+
+
+[1;31mfalse.[0m
+
+separar_z([1,2,3,5,2,4,6,-1,0], 5, MAY, MEN).
+
+
+MAY = [5, 6|_],
+MEN = [1, 2, 3, 2, 4, -1, 0|_] .[1m.[0m
+
+separar_z([1,2,3,5,2,4,6,-1,0], 5, MAY, MEN).
+
+
+MAY = [5, 6|_],
+MEN = [1, 2, 3, 2, 4, -1, 0|_] 	[1m;[0m
+[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+separar_z([1,2,3,5,2,4,6,-1,0], 5, MAY, MEN).
+
+
+MAY = [5, 6|_],
+MEN = [1, 2, 3, 2, 4, -1, 0|_] [1m.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+separar_z([1,2,3,5,2,4,6,-1,0], 5, MAY, MEN).
+
+
+[1;31mfalse.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+separar_z([1,2,3,5,2,4,6,-1,0], 5, MAY, MEN).
+
+
+MAY = [5, 6],
+MEN = [1, 2, 3, 2, 4, -1, 0] 	[1m;[0m
+[1;31mfalse.[0m
+
+eliminar([1,2,2,5,5,5,c,c,c,c,2,2], L).
+
+
+L = [1, 2, 5, c, 2] 	[1m;[0m
+[1;31mfalse.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 1 clauses
+[0m[1mtrue.[0m
+
+eliminar([1,2,2,5,5,5,c,c,c,c,2,2], L).
+
+
+L = [1, 2, 5, c, 2] 	[1m;[0m
+[1;31mfalse.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.02 sec, -1 clauses
+[0m[1mtrue.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2023.pl:14:
+Warning:    Singleton variables: [X]
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2023 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
