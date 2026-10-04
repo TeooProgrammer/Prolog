@@ -1,0 +1,137 @@
+make.
+
+
+[1mtrue.[0m
+
+preorden(7).
+
+
+7429851116
+[1mtrue [0m.[1m.[0m
+
+preorden(7).
+
+
+7429851116
+[1mtrue [0m	[1m;[0m
+666555889992224477
+[1;31mfalse.[0m
+
+preorden(7).
+
+
+7429851116
+[1mtrue [0m.[1m.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:3:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:4:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:5:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:6:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:31:13: Syntax error: Operator priority clash
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 5) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+preorden(7).
+
+
+7 4 2 9 8 5 1 1 1 6 
+[1mtrue [0m.[1m.[0m
+
+postorden(7).
+
+
+2 9 4 5 6 1 8 7 
+[1mtrue [0m.[1m.[0m
+
+inorden(7).
+
+
+[1;31mfalse.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:3:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:4:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:5:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:6:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 5) compiled 0.02 sec, 2 clauses
+[0m[1mtrue.[0m
+
+inorden(7).
+
+
+2 4 9 7 5 8 1 6 
+[1mtrue [0m.[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:103:1 Syntax error: Unexpected end of clause
+[0m
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:3:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:4:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:5:
+Warning:    Clauses of [34mizquierdo/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:1
+Warning:    Current predicate: [34mderecho/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous izquierdo/2.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:6:
+Warning:    Clauses of [34mderecho/2[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 5).pl:2
+Warning:    Current predicate: [34mizquierdo/2[0m[0m[31m
+Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 5) compiled 0.02 sec, 1 clauses
+[0m[1mtrue.[0m
+
