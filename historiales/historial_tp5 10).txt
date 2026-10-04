@@ -1,0 +1,69 @@
+make.
+
+
+[1mtrue.[0m
+
+sublista([a,b,c,d,e,f,g,u,], 6).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 6) . 
+[0msublista([a,b,c,d,e,f,g,u,], 6, R).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 6, R) . 
+[0msublista([a,b,c,d,e,f,g,u,], 6, _).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 6, _) . 
+[0msublista([a,b,c,d,e,f,g,u,], 6, 3).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 6, 3) . 
+[0msublista([a,b,c,d,e,f,g,u,], 6, 3).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 6, 3) . 
+[0msublista([a,b,c,d,e,f,g,u,], 2, 6, R).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: sublista([a,b,c,d,e,f,g,u
+ERROR: ** here **
+ERROR: ,], 2, 6, R) . 
+[0msublista([a,b,c,d,e], 2, 4, R).
+
+
+R = [b, c, d] 	[1m;[0m
+[1;31mfalse.[0m
+
+sublista([a,b,c,d,e], 2, 4, R).
+
+
+R = [b, c, d] [1m.[0m
+
+sublista([a,b,c,d,e,g,h,j,k,o], 2, 9, R).
+
+
+R = [b, c, d, e, g, h, j, k] 	[1m;[0m
+[1;31mfalse.[0m
+
+sublista([a,b,c,d,e,g,h,j,k,o], 2, 9, R).
+
+
+R = [b, c, d, e, g, h, j, k] [1m.[0m
+
