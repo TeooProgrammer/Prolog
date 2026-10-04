@@ -121,3 +121,21 @@ bebe(X).
 
 [1mtrue.[0m
 
+make.
+
+
+[1mtrue.[0m
+
+bebe(X).
+
+
+X = lourdes 	[1m;[0m
+X = danna .[1m.[0m
+
+bebe(X).
+
+
+X = lourdes 	[1m;[0m
+X = danna 	[1m;[0m
+[1;31mfalse.[0m
+
