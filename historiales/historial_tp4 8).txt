@@ -1,0 +1,196 @@
+p(X).
+
+
+[1;31mERROR: Unknown procedure: p/1 (DWIM could not correct goal)
+[0mp(X).
+
+
+[1;31mERROR: Unknown procedure: p/1 (DWIM could not correct goal)
+[0mconsult('tp4 8).pl').
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:1:18: Syntax error: Operator expected
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:5:
+Warning:    Clauses of [34mr/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:3
+Warning:    Current predicate: [34mq/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous r/1.[0m[0m[31m to suppress this message
+[0m[1mtrue.[0m
+
+p(X).
+
+
+[1;31mERROR: Unknown procedure: p/1 (DWIM could not correct goal)
+[0mmake.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:4:
+Warning:    Clauses of [34mq/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:2
+Warning:    Current predicate: [34mr/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous q/1.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:5:
+Warning:    Clauses of [34mr/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:3
+Warning:    Current predicate: [34mq/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous r/1.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 8) compiled 0.02 sec, 2 clauses
+[0m[1mtrue.[0m
+
+p(X).
+
+
+X = a .[1m.[0m
+
+p(X).
+
+
+X = a [1m.[0m
+
+p(X).
+
+
+X = a .[1m.[0m
+
+p(X).
+
+
+X = a 	[1m;[0m
+X = b.
+
+p(X).
+
+
+X = a 	[1m;[0m
+X = b.
+
+p(X).
+
+
+X = a 	[1m;[0m
+X = b.
+
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:2:
+ERROR:    Full stop in clause-body?  Cannot redefine ,/2
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:5:
+Warning:    Clauses of [34mr/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:3
+Warning:    Current predicate: [34mq/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous r/1.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 8) compiled 0.00 sec, -1 clauses
+[0m[1mtrue.[0m
+
+p(X).
+
+
+X = b.
+
+p(X).
+
+
+X = b.
+
+p(X).
+
+
+X = b.
+
+p(X).
+
+
+X = b.
+
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:3:
+ERROR:    Full stop in clause-body?  Cannot redefine ,/2
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 8) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+p(X).
+
+
+X = b.
+
+p(X).
+
+
+X = b.
+
+
+.
+[1;31m
+ERROR: Stream user_input:92:1 Syntax error: Unexpected end of clause
+[0m
+make.
+
+
+[1mtrue.[0m
+
+p(X).
+
+
+X = b.
+
+p(X).
+
+
+X = b.
+
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:4:
+ERROR:    Full stop in clause-body?  Cannot redefine ,/2
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 8) compiled 0.02 sec, 0 clauses
+[0m[1mtrue.[0m
+
+p(X).
+
+
+X = a 	[1m;[0m
+[1;31mfalse.[0m
+
+p(X).
+
+
+X = a 	[1m;[0m
+[1;31mfalse.[0m
+
+make.
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:4:
+Warning:    Clauses of [34mq/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:2
+Warning:    Current predicate: [34mr/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous q/1.[0m[0m[31m to suppress this message
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:5:
+Warning:    Clauses of [34mr/1[0m[0m[31m are not together in the source-file
+Warning:    Earlier definition at c:/users/mateo/onedrive/documentos/prolog/tp4 8).pl:3
+Warning:    Current predicate: [34mq/1[0m[0m[31m
+Warning:    Use [34m:- discontiguous r/1.[0m[0m[31m to suppress this message
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 8) compiled 0.02 sec, 1 clauses
+[0m[1mtrue.[0m
+
+p(X).
+
+
+X = a 	[1m;[0m
+[1;31mfalse.[0m
+
+p(X).
+
+
+X = a [1m.[0m
+
+p(X).
+
+
+X = a 	[1m;[0m
+[1;31mfalse.[0m
+

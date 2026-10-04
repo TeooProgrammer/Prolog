@@ -211929,3 +211929,8 @@ tabla(4).
 [1;31m
 ERROR: Stream user_input:26:1 Syntax error: Unexpected end of clause
 [0m
+a.
+
+
+[1;31mERROR: Unknown procedure: a/0 (DWIM could not correct goal)
+[0m

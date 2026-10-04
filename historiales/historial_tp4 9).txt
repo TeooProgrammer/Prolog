@@ -1,0 +1,49 @@
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 9) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+sumatoria(N,S).
+
+
+N = S, S = 1.
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 9) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+sumatoria(N,S).
+
+
+N = S, S = 1 	[1m;[0m
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [12] [0m[0m[1;31m[34msumatoria(_51304,_51306)[0m[0m[1;31m
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0msumatoria(N,S).
+
+
+N = S, S = 1 .[1m.[0m
+
+sumatoria(N,S).
+
+
+N = S, S = 1 	[1m;[0m
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [12] [0m[0m[1;31m[34msumatoria(_6974,_6976)[0m[0m[1;31m
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mmake.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 9) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+sumatoria(N,S).
+
+
+N = S, S = 1.
+

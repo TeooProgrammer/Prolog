@@ -1,0 +1,30 @@
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 7) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+hacer(3).
+
+
+[1mtrue.[0m
+
+hacer(4).
+
+
+3
+[1mtrue.[0m
+
+hacer(9).
+
+
+678
+[1mtrue [0m	[1m;[0m
+345678
+[1mtrue.[0m
+
+hacer(X).
+
+
+X = 3.
+

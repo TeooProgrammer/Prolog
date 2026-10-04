@@ -1,0 +1,47 @@
+mod(10,5).
+
+
+[1;31mERROR: Unknown procedure: user:(mod)/2
+ERROR:     However, there are definitions for:
+ERROR:         mode/1
+ERROR:         (mod)/3
+[0m[1;31mfalse.[0m
+
+mod(10,5, 2).
+
+
+[1;31mfalse.[0m
+
+mod(10,5, 4).
+
+
+[1;31mfalse.[0m
+
+mod(7,3,R).
+
+
+R = 1 .[1m.[0m
+
+mod(7,3,R).
+
+
+R = 1 	[1m;[0m
+[1;31mfalse.[0m
+
+mod(10,5,R).
+
+
+R = 0 	[1m;[0m
+[1;31mfalse.[0m
+
+mod(10,5,R).
+
+
+R = 0 	[1m;[0m
+[1;31mfalse.[0m
+
+mod(10,5,R).
+
+
+R = 0 [1m.[0m
+
