@@ -29,7 +29,7 @@ c. ?- bebe(X).
 X = lourdes ;
 X = danna . */
 
-/* Definir la regla obtenerLicencia(X), que indique si X puede obtener la licencia de conducir sabiendo
+/* 3. Definir la regla obtenerLicencia(X), que indique si X puede obtener la licencia de conducir sabiendo
 que la edad mínima es 17 y la máxima 69. Mostrar la salida de la consulta.
 Graficar el árbol de búsqueda, indicar las sustituciones y los backtracking. (3 ptos.) */
 

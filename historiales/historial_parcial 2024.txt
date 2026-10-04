@@ -139,3 +139,139 @@ X = lourdes 	[1m;[0m
 X = danna 	[1m;[0m
 [1;31mfalse.[0m
 
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:8:10: Syntax error: Operator expected
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:14:4: Syntax error: Operator expected
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2024 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:8:10: Syntax error: Operator expected
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:14:4: Syntax error: Operator expected
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2024 compiled 0.00 sec, 1 clauses
+[0m[1mtrue.[0m
+
+make.
+
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:8:10: Syntax error: Operator expected
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:14:4: Syntax error: Operator expected
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/parcial 2024 compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+gtrace, obtenerLicencia(43).
+
+
+[92m% The graphical front-end will be used for subsequent tracing
+[0m[1;31mfalse.[0m
+
+.
+[1;31m
+ERROR: Stream user_input:36:1 Syntax error: Unexpected end of clause
+[0m
+.
+[1;31m
+ERROR: Stream user_input:39:1 Syntax error: Unexpected end of clause
+[0m
+trace.
+
+
+[1mtrue.[0m
+
+untrace.
+
+
+[1;31mERROR: Unknown procedure: untrace/0 (DWIM could not correct goal)
+[0ma
+.
+
+
+[1;31mERROR: Unknown procedure: a/0 (DWIM could not correct goal)
+[0ma.
+
+
+[1;31mERROR: Unknown procedure: a/0 (DWIM could not correct goal)
+[0mnotrace.
+
+
+[1mtrue.[0m
+
+nodebug.
+
+
+[1mtrue.[0m
+
+visible(+unify).
+
+
+[1mtrue.[0m
+
+leash(+unify).
+
+
+[1mtrue.[0m
+
+?- trace.
+
+
+[1;31mERROR: Unknown procedure: (?-)/1
+ERROR:   ?- is the Prolog prompt
+ERROR:   See FAQ at https://www.swi-prolog.org/FAQ/ToplevelMode.html
+ERROR: In:
+ERROR: [1m  [11] [0m[0m[1;31m[93mthrow(error(existence_error(procedure,...),_18704))[0m[0m[1;31m
+ERROR: [1m   [8] [0m[0m[1;31m[93mcorrect_goal((?-trace),user,[],_18740)[0m[0m[1;31m at c:/program files/swipl/boot/dwim.pl:92
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m trace.
+
+
+[1mtrue.[0m
+
+obtenerLicencia(X).
+
+
+Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...Confirmer running; discarding input ...
+X = micaela make.
+
+
+[1mtrue.[0m
+
+trace.
+
+
+[1mtrue.[0m
+
+obtenerLicencia(X).
+
+
+   [1;32mCall: [0m(12) obtenerLicencia(_37362) ? creep
+   [1;32mCall: [0m(13) edad(_37362, _38964) ? creep
+   [1;32mExit: [0m(13) edad(lourdes, 1) ? creep
+   [1;32mCall: [0m(13) 1>=17 ? creep
+   [1;31mFail: [0m(13) 1>=17 ? creep
+   [1;33mRedo: [0m(13) edad(_37362, _38964) ? creep
+   [1;32mExit: [0m(13) edad(danna, 2) ? creep
+   [1;32mCall: [0m(13) 2>=17 ? creep
+   [1;31mFail: [0m(13) 2>=17 ? creep
+   [1;33mRedo: [0m(13) edad(_37362, _38964) ? creep
+   [1;32mExit: [0m(13) edad(ana, 5) ? creep
+   [1;32mCall: [0m(13) 5>=17 ? creep
+   [1;31mFail: [0m(13) 5>=17 ? creep
+   [1;33mRedo: [0m(13) edad(_37362, _38964) ? creep
+   [1;32mExit: [0m(13) edad(isabella, 12) ? creep
+   [1;32mCall: [0m(13) 12>=17 ? creep
+   [1;31mFail: [0m(13) 12>=17 ? creep
+   [1;33mRedo: [0m(13) edad(_37362, _38964) ? creep
+   [1;32mExit: [0m(13) edad(micaela, 27) ? creep
+   [1;32mCall: [0m(13) 27>=17 ? creep
+   [1;32mExit: [0m(13) 27>=17 ? creep
+   [1;32mCall: [0m(13) 27=<69 ? creep
+   [1;32mExit: [0m(13) 27=<69 ? creep
+   [1;32mExit: [0m(12) obtenerLicencia(micaela) ? creep
+X = micaela [1m.[0m
+
