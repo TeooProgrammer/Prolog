@@ -1,0 +1,21 @@
+precio_menor(100,V).
+
+
+V = 120 	[1m;[0m
+[1;31mfalse.[0m
+
+precio_menor(100,V).
+
+
+V = 120 [1m.[0m
+
+precio_menor(500,V).
+
+
+V = 575 [1m.[0m
+
+precio_menor(2000,V).
+
+
+V = 2200.
+
