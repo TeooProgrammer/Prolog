@@ -1,0 +1,16 @@
+concatenar([a,b,c], [d,e,f,g,r,a,a], R).
+
+
+R = [b, c, d, e, f, g, r, a, a] 	[1m;[0m
+R = [b, c, d, e, f, g, r, a, a] [1m.[0m
+
+concatenar([a,b,c], [b,d,e], R).
+
+
+R = [a, c, b, d, e] [1m.[0m
+
+concatenar([a,b,c], [c,d,e], R).
+
+
+R = [a, b, c, d, e] [1m.[0m
+
