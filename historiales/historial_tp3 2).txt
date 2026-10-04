@@ -1,0 +1,10 @@
+fue_presidente(juan, 2002).
+
+
+[1mtrue.[0m
+
+fue_presidente(carlos, 2015).
+
+
+[1;31mfalse.[0m
+
