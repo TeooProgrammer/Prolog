@@ -1,0 +1,20 @@
+elemento([a,b,c,d,e], 3, X).
+
+
+X = c .[1m.[0m
+
+elemento([a,b,c,d,e], 5, X).
+
+
+X = e .[1m.[0m
+
+elemento([a,b,c,d,e], 999, X).
+
+
+[1;31mfalse.[0m
+
+elemento([a,b,c,d,e], 9, X).
+
+
+[1;31mfalse.[0m
+

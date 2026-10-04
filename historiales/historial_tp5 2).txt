@@ -1,0 +1,97 @@
+ocurrencias(X,C,N).
+
+
+X = [],
+N = 0 	[1m;[0m
+X = [C],
+N = 1 	[1m;[0m
+X = [C, C],
+N = 2 	[1m;[0m
+X = [C, C, C],
+N = 3 	[1m;[0m
+X = [C, C, C, C],
+N = 4 	[1m;[0m
+X = [C, C, C, C, C],
+N = 5 	[1m;[0m
+X = [C, C, C, C, C, C],
+N = 6 	[1m;[0m
+X = [C, C, C, C, C, C, C],
+N = 7 	[1m;[0m
+X = [C, C, C, C, C, C, C, C],
+N = 8 	[1m;[0m
+X = [C, C, C, C, C, C, C, C, C],
+N = 9 	[1m;[0m
+X = [C, C, C, C, C, C, C, C, C|…],
+N = 10 .[1m.[0m
+
+ocurrencias(X,C,N).
+
+
+X = [],
+N = 0 .[1m.[0m
+
+ocurrencias(X,C,N).
+
+
+X = [],
+N = 0 .[1m.[0m
+
+ocurrencias(X,C,N).
+
+
+X = [],
+N = 0 	[1m;[0m
+X = [C],
+N = 1 	[1m;[0m
+X = [C, C],
+N = 2 	[1m;[0m
+X = [C, C, C],
+N = 3 	[1m;[0m
+X = [C, C, C, C],
+N = 4 	[1m;[0m
+X = [C, C, C, C, C],
+N = 5 	[1m;[0m
+X = [C, C, C, C, C, C],
+N = 6 	[1m;[0m
+X = [C, C, C, C, C, C, C],
+N = 7 	[1m;[0m
+X = [C, C, C, C, C, C, C, C],
+N = 8 	[1m;[0m
+X = [C, C, C, C, C, C, C, C, C],
+N = 9 .[1m.[0m
+
+ocurrencias([a,b,a,c,a,], a, N).
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: ocurrencias([a,b,a,c,a
+ERROR: ** here **
+ERROR: ,], a, N) . 
+[0mocurrencias([a,b,a,c,a], a, N).
+
+
+N = 3 .[1m.[0m
+
+ocurrencias([a,b,a,c,a], a, N).
+
+
+N = 3 	[1m;[0m
+[1;31mfalse.[0m
+
+ocurrencias([a,b,b,c,a], a, N).
+
+
+N = 2 .[1m.[0m
+
+ocurrencias([a,b,b,c,a], a, N).
+
+
+N = 2 	[1m;[0m
+[1;31mfalse.[0m
+
+ocurrencias([a,b,b,c,a], c, N).
+
+
+N = 1 	[1m;[0m
+[1;31mfalse.[0m
+

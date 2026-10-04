@@ -1,0 +1,80 @@
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+pertenece([a,b,c,d], a, N).
+
+
+N = 1.
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+pertenece([a,b,c,d], c, N).
+
+
+[1;31mfalse.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[1mtrue.[0m
+
+pertenece([a,b,c,d], a, N).
+
+
+N = 1 .[1m.[0m
+
+pertenece([a,b,c,z], a, N).
+
+
+N = 1 .[1m.[0m
+
+pertenece([a,b,c,z], z, N).
+
+
+N = 4 .[1m.[0m
+

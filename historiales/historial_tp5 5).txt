@@ -1,0 +1,43 @@
+sustraer([a,b], [a,c,b,d,e,f,g], R).
+
+
+[1;31mERROR: Unknown procedure: pertenece/3
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mpertenece([a,b],a,_6170)[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34msustraer([a,b],[a,c|...],_6210)[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp5 5).pl:6
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call('<garbage_collected>')[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) pertenece([a, b], a, _49810) ? 	creep
+   [1;35mException: [0m(12) sustraer([a, b], [a, c, b, d, e, f, g], _62) ? 	creep
+make.
+
+
+[31mWarning: The predicates below are not defined. If these are defined
+Warning: at runtime using assert/1, use :- dynamic Name/Arity.
+Warning: 
+Warning: [34mpertenece/3[0m[0m[31m, which is referenced by
+Warning: 	c:/users/mateo/onedrive/documentos/prolog/tp5 5).pl:6:24: 2-nd clause of sustraer/3
+Warning: 	c:/users/mateo/onedrive/documentos/prolog/tp5 5).pl:7:31: 3-th clause of sustraer/3
+[0m[1mtrue.[0m
+
+sustraer([a,b], [a,c,b,d,e,f,g], R).
+
+
+[1;31mERROR: Unknown procedure: pertenece/3
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34mpertenece([a,b],a,_44812)[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34msustraer([a,b],[a,c|...],_44852)[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/tp5 5).pl:6
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0m   [1;35mException: [0m(13) pertenece([a, b], a, _50658) ? 	creep
+   [1;35mException: [0m(12) sustraer([a, b], [a, c, b, d, e, f, g], _43772) ? 	creep
+make.
+
+
+[32m%  tp5 7).pl compiled 0.00 sec, 2 clauses
+[0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp5 5) compiled 0.00 sec, 1 clauses
+[0m[1mtrue.[0m
+
+sustraer([a,b], [a,c,b,d,e,f,g], R).
+
+
+R = [c, d, e, f, g] .[1m.[0m
+
