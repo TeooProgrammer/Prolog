@@ -211899,4 +211899,33 @@ tabla(4).
 82930*4=331720
 82931*4=331724
 82932*4=331728
-82933*4=331
+82933*4=331make.
+
+
+[1mtrue.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:9:1 Syntax error: Unexpected end of clause
+[0m
+tabla(4).
+
+
+1*4=4
+2*4=8
+3*4=12
+4*4=16
+5*4=20
+6*4=24
+7*4=28
+8*4=32
+9*4=36
+10*4=40
+[1mtrue [0m.[1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:26:1 Syntax error: Unexpected end of clause
+[0m
