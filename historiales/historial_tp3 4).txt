@@ -1,0 +1,149 @@
+menu.
+
+
+1. Copiar2. Pegar3. Borrar.
+[1;31m
+ERROR: Stream user_input:1:27 Syntax error: Unexpected end of clause
+[0m
+menu.
+
+
+1. Copiar2. Pegar3. Borrar
+.
+[1;31m
+ERROR: Stream user_input:6:1 Syntax error: Unexpected end of clause
+[0m
+menu.
+
+
+1. Copiar2. Pegar3. Borrar.
+[1;31m
+ERROR: Stream user_input:10:27 Syntax error: Unexpected end of clause
+[0m
+make.
+
+
+[1mtrue.[0m
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp3 4) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar
+1
+1.
+[1;31m
+ERROR: Stream user_input:24:2 Syntax error: Operator expected
+[0m
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar
+1.
+Seleccionaste 1
+[1mtrue.[0m
+
+
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar
+a
+
+
+a
+a
+aa
+.
+[1;31m
+ERROR: Stream user_input:42:0 Syntax error: Operator expected
+[0m
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp3 4) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+make.}}
+}a
+}a
+a.
+
+
+[1;31mERROR: Syntax error: Illegal start of term
+ERROR: make
+ERROR: ** here **
+ERROR: .}
+}a
+}a
+a . 
+[0m
+
+.AA
+.
+
+
+[1;31mERROR: Syntax error: Operator expected
+ERROR: 
+ERROR: ** here **
+ERROR: .A . 
+[0mmenu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar1
+.
+Seleccionaste 1
+[1mtrue.[0m
+
+
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar1
+.
+Seleccionaste 1
+[1mtrue.[0m
+
+
+make.
+
+
+[32m% c:/users/mateo/onedrive/documentos/prolog/tp3 4) compiled 0.00 sec, 0 clauses
+[0m[1mtrue.[0m
+
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar
+.
+[1;31m
+ERROR: Stream user_input:96:1 Syntax error: Unexpected end of clause
+[0m
+menu.
+
+
+1. Copiar
+2. Pegar
+3. Borrar
+3.
+Seleccionaste 3
+[1mtrue.[0m
+
+
