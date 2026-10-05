@@ -135,3 +135,34 @@ Warning:    Use [34m:- discontiguous derecho/2.[0m[0m[31m to suppress this m
 [0m[32m% c:/users/mateo/onedrive/documentos/prolog/tp4 5) compiled 0.02 sec, 1 clauses
 [0m[1mtrue.[0m
 
+make.
+
+
+[1mtrue.[0m
+
+inorden(7).
+
+
+2 4 9 7 5 8 1 6 
+[1mtrue [0m	[1m;[0m
+6 5 9 2 
+[1;31mfalse.[0m
+
+inorden(7).
+
+
+2 4 9 7 5 8 1 6 
+[1mtrue [0m[1m.[0m
+
+preorden(7).
+
+
+7 4 2 9 8 5 1 1 1 6 
+[1mtrue [0m[1m.[0m
+
+postorden(7).
+
+
+2 9 4 5 6 1 8 7 
+[1mtrue [0m[1m.[0m
+

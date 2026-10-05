@@ -10,11 +10,11 @@ hoja(X) :- \+ izquierdo(X,_), \+ derecho(X,_).
 /* caso base, nodo hoja sin hijos*/
 preorden(X) :- hoja(X), write(X), write(' ').
 /* caso general, nodo con hijo izquierdo y derecho*/
-preorden(X) :- write(X), write(' '), izquierdo(X,Y), derecho(X,Z), preorden(Y), preorden(Z).
+preorden(X) :- izquierdo(X,Y), derecho(X,Z), write(X), write(' '), preorden(Y), preorden(Z).
 /* caso con solo hijo izquierdo*/
-preorden(X) :- write(X), write(' '), izquierdo(X,Y), \+ derecho(X,_), preorden(Y).
+preorden(X) :- izquierdo(X,Y), \+ derecho(X,_), write(X), write(' '), preorden(Y).
 /* caso con solo hijo derecho */
-preorden(X) :- write(X), write(' '), \+ izquierdo(X,_), derecho(X,Z), preorden(Z).
+preorden(X) :- \+ izquierdo(X,_), derecho(X,Z), write(X), write(' '), preorden(Z).
 
 /* caso base, nodo hoja sin hijos*/
 postorden(X) :- hoja(X), write(X), write(' ').
@@ -37,7 +37,12 @@ inorden(X) :- \+ izquierdo(X,_), write(X), write(' '), derecho(X,Z), inorden(Z).
 /* mayor del arbol */
 mayor(X, M) :- hoja(X), M is X.
 
-/*sin terminaaaaaaaaaaaaaaaaaaaaar*/
+/* nodo con ambos hijos */
+mayor(X,M) :- izquierdo(X,Y), derecho(X,Z), mayor(Y,MI), mayor(Z,MD), M is max(X, max(MI,MD)).
+/* nodo con solo hijo izquierdo */
+mayor(X,M) :- izquierdo(X,Y), \+ derecho(X,_), mayor(Y,MI), M is max(X,MI).
+/* nodo con solo hijo derecho */
+mayor(X,M) :- \+ izquierdo(X,_), derecho(X,Z), mayor(Z,MD), M is max(X,MD).
 
 
 

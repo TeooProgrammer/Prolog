@@ -26,5 +26,10 @@ eliminarPositivos([X|Y], R) :-  X > 0, eliminarPositivos(Y, R).
 
 /* Escribir un predicado sinRepetidos(L1,L2) que reciba una lista L1 y genere en L2 una lista que contenga los mismos elementos, pero sin elementos repetidos. */
 sinRepetidos([], []).
-concatenar([X|Y], Y, R) :- pertenece(Y, A, _), concatenar(B,Y,R).
-concatenar([A|B], Y, [A|R]) :- \+ pertenece(Y,A, _), concatenar(B,Y,R).
+sinRepetidos([X|Y], R) :- pertenece(X, Y), sinRepetidos(Y, R).
+sinRepetidos([X|Y], [X|R]) :- \+ pertenece (X, Y), sinRepetidos(Y, R).
+
+/* Escribir un predicado conRepetidos(L1,L2) que reciba una lista L1 y genere en L2 una lista que contenga los mismo elementos repetidos. */
+conRepetidos([], []).
+conRepetidos([X|Y], R) :- \+ pertenece (X, Y), conRepetidos(Y,R).
+conRepetidos([X|Y], [X|R]) :- pertenece (X, Y), conRepetidos(Y, R).
