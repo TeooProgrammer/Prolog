@@ -1,0 +1,6 @@
+contarParesNumero(48273, C).
+
+
+C = 3 	[1m;[0m
+[1;31mfalse.[0m
+

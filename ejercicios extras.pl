@@ -4,10 +4,25 @@ contarMenores([], _, 0).
 contarMenores([X|Y], C, N) :- X < C, contarMenores(Y, C, N1), N is N1 + 1.
 contarMenores([X|Y], C, N) :- X >= C, contarMenores(Y,C,N).
 
+/* /*función contarMayores(L,C,N), que retorna la cantidad de elementos mayores que C sobre la lista L. */
+contarMayores([], _, 0).
+contarMayores([X|Y], C, N) :- X > C, contarMayores(Y, C, N1), N is N1 + 1.
+contarMayores([X|Y], C, N) :- X =< C, contarMayores(Y,C,N).
+
 /* recorre una lista y suma los números pares. */
 sumarPares([], 0).
 sumarPares([X|Y], S) :- X mod 2 =:= 0, sumarPares(Y,S1), S is S1 + X.
 sumarPares([X|Y], S) :- X mod 2 =\= 0, sumarPares(Y, S).
+
+/* recorre los digitos de un numero y cuenta los pares */
+contarParesNumero(0, 0).
+contarParesNumero(N, C) :- N > 0, D is N mod 10, D mod 2 =:= 0, N1 is N // 10, contarParesNumero(N1, C1), C is C1 + 1.
+contarParesNumero(N, C) :- N > 0, D is N mod 10, D mod 2 =\= 0, N1 is N // 10, contarParesNumero(N1, C).
+
+/* recorre los digitos de un numero y cuenta los impares */
+contarImparesNumero(0, 0).
+contarImparesNumero(N, C) :- N > 0, D is N mod 10, D mod 2 =\= 0, N1 is N // 10, contarImparesNumero(N1, C1), C is C1 + 1.
+contarImparesNumero(N, C) :- N > 0, D is N mod 10, D mod 2 =:= 0, N1 is N // 10, contarImparesNumero(N1, C).
 
 /* recorre una lista y suma los números impares. */
 sumarImpares([], 0).
