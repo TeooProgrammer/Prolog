@@ -12648,3 +12648,357 @@ make.
 
 [1mtrue.[0m
 
+make.
+
+
+[1mtrue.[0m
+
+['visualizador.pl'].
+
+
+[1mtrue.[0m
+
+visualizar(puedeConducir(X)).
+
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: puedeConducir(_43500)
+
+OBJETIVO      puedeConducir(_44566)
+
+REGLA USADA
+  puedeConducir(X):-adulto(X),obtenerLicencia(X)
+
+OBJETIVOS DE LA REGLA
+  1. adulto(X)
+  2. obtenerLicencia(X)
+
+OBJETIVO      adulto(X)
+
+REGLA USADA
+  adulto(X):-edad(X,E),E>=21,E<70
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=21
+  3. E<70
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(lourdes,1)
+
+SUSTITUCION
+  { X = lourdes, E = 1 }
+
+OBJETIVO      E>=21
+  FALLO       1>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(danna,2)
+
+SUSTITUCION
+  { X = danna, E = 2 }
+
+OBJETIVO      E>=21
+  FALLO       2>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(ana,5)
+
+SUSTITUCION
+  { X = ana, E = 5 }
+
+OBJETIVO      E>=21
+  FALLO       5>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(isabella,12)
+
+SUSTITUCION
+  { X = isabella, E = 12 }
+
+OBJETIVO      E>=21
+  FALLO       12>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=21
+  EXITO       27>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       27<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=17
+  EXITO       27>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       27=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(micaela)
+========================================
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(pedro,18)
+
+SUSTITUCION
+  { X = pedro, E = 18 }
+
+OBJETIVO      E>=21
+  FALLO       18>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=21
+  EXITO       38>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       38<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=17
+  EXITO       38>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       38=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(ramon)
+========================================
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=21
+  EXITO       55>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       55<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=17
+  EXITO       55>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       55=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(jorge)
+========================================
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(pablo,71)
+
+SUSTITUCION
+  { X = pablo, E = 71 }
+
+OBJETIVO      E>=21
+  EXITO       71>=21  [SI]
+
+OBJETIVO      E<70
+  FALLO       71<70  [NO]
+
+  <--- BACKTRACKING desde edad(_43500,_49080)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(julia,80)
+
+SUSTITUCION
+  { X = julia, E = 80 }
+
+OBJETIVO      E>=21
+  EXITO       80>=21  [SI]
+
+OBJETIVO      E<70
+  FALLO       80<70  [NO]
+  FALLO       adulto(_43500)  [NO]
+  FALLO       puedeConducir(_43500)  [NO]
+
+========================================
+ FIN DE LA BUSQUEDA
+========================================
+[1mtrue.[0m
+
+mostrar_arbol_hoja.
+
+
+
+========================================
+ ARBOL PARA COPIAR A HOJA
+========================================
+OBJETIVO: puedeConducir(X)
+REGLA:    puedeConducir(X):-adulto(X),obtenerLicencia(X).
+
+
+|   +-- OBJETIVO: adulto(X)
+|   |   REGLA: adulto(X):-edad(X,E),E>=21,E<70
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(lourdes,1)   Sustitucion = { X = lourdes, E = 1 }
+|   |   |   |   +-- 1>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(danna,2)   Sustitucion = { X = danna, E = 2 }
+|   |   |   |   +-- 2>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ana,5)   Sustitucion = { X = ana, E = 5 }
+|   |   |   |   +-- 5>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(isabella,12)   Sustitucion = { X = isabella, E = 12 }
+|   |   |   |   +-- 12>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(micaela,27)   Sustitucion = { X = micaela, E = 27 }
+|   |   |   |   +-- 27>=21  [EXITO]
+|   |   |   |   +-- 27<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(micaela,27)   Sustitucion = { X = micaela, E = 27 }
+|   |   |   |   +-- 27>=17  [EXITO]
+|   |   |   |   +-- 27=<69  [EXITO]
+
+|   +-- SOLUCION: X = micaela  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(pedro,18)   Sustitucion = { X = pedro, E = 18 }
+|   |   |   |   +-- 18>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ramon,38)   Sustitucion = { X = ramon, E = 38 }
+|   |   |   |   +-- 38>=21  [EXITO]
+|   |   |   |   +-- 38<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ramon,38)   Sustitucion = { X = ramon, E = 38 }
+|   |   |   |   +-- 38>=17  [EXITO]
+|   |   |   |   +-- 38=<69  [EXITO]
+
+|   +-- SOLUCION: X = ramon  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(jorge,55)   Sustitucion = { X = jorge, E = 55 }
+|   |   |   |   +-- 55>=21  [EXITO]
+|   |   |   |   +-- 55<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(jorge,55)   Sustitucion = { X = jorge, E = 55 }
+|   |   |   |   +-- 55>=17  [EXITO]
+|   |   |   |   +-- 55=<69  [EXITO]
+
+|   +-- SOLUCION: X = jorge  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(pablo,71)   Sustitucion = { X = pablo, E = 71 }
+|   |   |   |   +-- 71>=21  [EXITO]
+|   |   |   |   +-- 71<70  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(julia,80)   Sustitucion = { X = julia, E = 80 }
+|   |   |   |   +-- 80>=21  [EXITO]
+|   |   |   |   +-- 80<70  [FALLO]
+|   `-- AGOTADO: adulto(X)  [sin mas alternativas]
+
+========================================
+ [EXITO] correcto | [FALLO] no cumple
+ BACKTRACKING -> vuelve al punto de eleccion
+========================================
+[1mtrue.[0m
+
