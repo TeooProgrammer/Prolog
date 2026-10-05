@@ -2,6 +2,7 @@
 positivos en una lista y los negativos en otra. */
 
 separar([], [], []).
-separar([X|Y], [X|P], N) :- X >= 0, separar(Y, P, N), X <= 0, separar(Y, P, N).
+separar([X|Y], [X|P], N) :- X >= 0, separar(Y, P, N). 
+separar([X|Y], P,[X|N]) :- X < 0, separar(Y, P, N).
  
 
