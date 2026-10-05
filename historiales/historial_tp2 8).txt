@@ -37,3 +37,54 @@ Ingrese
 [1mtrue [0m
 [1m.[0m
 
+promedio().
+
+
+Ingrese
+.
+[1;31m
+ERROR: Stream user_input:2:1 Syntax error: Unexpected end of clause
+[0m
+promedio().
+
+
+Ingrese3
+promedio().
+[1;31m
+ERROR: Stream user_input:6:9 Syntax error: Operator expected
+[0m
+promedio().
+
+
+Ingrese3.
+Ingrese
+4.
+Ingrese
+5.
+Ingrese
+6.
+Ingrese
+6.
+Ingrese
+8.
+Ingrese
+0.
+5.333333333333333
+[1mtrue [0m
+[1m.[0m
+
+promedio().
+
+
+Ingrese4
+.
+Ingrese
+2.
+Ingrese
+4.
+Ingrese
+0.
+3.3333333333333335
+[1mtrue [0m
+[1m.[0m
+

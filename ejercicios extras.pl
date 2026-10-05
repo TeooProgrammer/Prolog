@@ -9,7 +9,7 @@ contarMayores([], _, 0).
 contarMayores([X|Y], C, N) :- X > C, contarMayores(Y, C, N1), N is N1 + 1.
 contarMayores([X|Y], C, N) :- X =< C, contarMayores(Y,C,N).
 
-/* recorre una lista y suma los números pares. */
+/* recorre una lista y suma los numeros pares. */
 sumarPares([], 0).
 sumarPares([X|Y], S) :- X mod 2 =:= 0, sumarPares(Y,S1), S is S1 + X.
 sumarPares([X|Y], S) :- X mod 2 =\= 0, sumarPares(Y, S).

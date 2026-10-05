@@ -11,3 +11,13 @@ trabaja(laura, empresa1, 1100).
 sueldoAlto(X) :- trabaja(X,_, S), S > 1000.
 /* 2. Definir una regla companeros(X,Y) que determine si dos personas trabajan en la misma empresa. */
 companeros(X,Y) :- trabaja(X,E,_), trabaja(Y, E,_), X \= Y.
+
+/* X e Y tienen al menos una comida que les gusta a ambos. */
+gusto_comun(X, Y) :-gusta(X, C), gusta(Y, C), X \= Y.
+
+/* A X le gustan pizza, sushi y ensalada. */
+come_de_todo(X) :- gusta(X, pizza),
+    gusta(X, sushi),
+    gusta(X, ensalada).
+
+    ?- come_de_todo(X).

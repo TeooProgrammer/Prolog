@@ -1,0 +1,65 @@
+make.
+
+
+[1mtrue.[0m
+
+adivina(X,Y,R).
+
+
+Correct to: "adivina2(X,Y,R)"? .
+Please answer 'y' or 'n'? yyes
+_34006
+Y = 0 [1m.[0m
+
+adivina2(X,Y,R).
+
+
+_38826
+Y = 0 	[1m;[0m
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [13] [0m[0m[1;31m[34m_48474 is _48480*_48482[0m[0m[1;31m
+ERROR: [1m  [12] [0m[0m[1;31m[34madivina2(_48506,_48508,_48510)[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/parcial 2026 3.pl:8
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0madivina2(X,Y,R).
+
+
+_1452
+Y = 0 [1m.[0m
+
+adivina2(X,Y,R).
+
+
+_4772
+Y = 0 [1m.[0m
+
+adivina(X,Y).
+
+
+1
+Y = 0 [1m.[0m
+
+adivina(X,Y).
+
+
+1
+Y = 0 [1m.[0m
+
+adivina2(X,Y,R).
+
+
+_14376
+Y = 0 [1m.[0m
+
+adivina2(X,0,R).
+
+
+_17696
+[1mtrue [0m[1m.[0m
+
+adivina2(X,Y,R).
+
+
+_20866
+Y = 0 [1m.[0m
+
