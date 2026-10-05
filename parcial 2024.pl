@@ -5,14 +5,16 @@ edad(ana, 5).
 edad(isabella, 12).
 edad(micaela, 27).
 edad(pedro, 18).
-edad(ramón, 38).
+edad(ramon, 38).
 edad(jorge, 55).
 edad(pablo, 71).
 edad(julia, 80).
 
 bebe(X) :- edad(X,E), E =< 2.
-niño(X) :- edad(X,E), E > 2, E < 13.
+nino(X) :- edad(X,E), E > 2, E < 13.
 adulto(X) :- edad(X,E), E >= 21, E < 70.
+
+puedeConducir(X) :- adulto(X), obtenerLicencia(X).
 
 /* 1. Definir las reglas adolescente (de 14 a 20 años) y adulto mayor (más de 70 años). (1,5 pto.) */
 adolescente(X) :- edad(X,E), E >= 14, E =< 20.
@@ -35,5 +37,17 @@ Graficar el árbol de búsqueda, indicar las sustituciones y los backtracking. (
 
 obtenerLicencia(X) :- edad(X,E), E >= 17, E =< 69.
 
+/* 4. Escribir la función contarValores(L,V), que retorne la cantidad de elementos mayores que V sobre la lista L. (2 ptos.) */
 
+contarValores([], _, 0).
+contarValores([X|Y], C, N) :- X > C, contarValores(Y, C, N1), N is N1 + 1.
+contarValores([X|Y], C, N) :- X =< C, contarValores(Y,C,N).
 
+/* 5. Describir lo que hace el siguiente predicado. (2 ptos.) */
+
+adivina(X,L1,L2)
+adivina(X,[],[]).
+adivina(X,[Y|M],[Y|S]):- X =< Y, adivina(Y,M,S).
+adivina(X,[Y|M],S):- adivina(X,M,S).
+
+/* adivina es un predicado recursivo que compara X con los elementos de una lista y los guarda en otra cuando X es menor o igual a dichos elementos.

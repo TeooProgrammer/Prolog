@@ -1,0 +1,922 @@
+['parcial 2024.pl'].
+
+
+[1mtrue.[0m
+
+['visualizador_con_arbol_v3.pl'].
+
+
+[1;31mERROR: source_sink `'visualizador_con_arbol_v3.pl'' does not exist
+ERROR: In:
+ERROR: [1m  [23] [0m[0m[1;31m[34mthrow(error(existence_error(source_sink,'visualizador_con_arbol_v3.pl'),_188))[0m[0m[1;31m
+ERROR: [1m  [20] [0m[0m[1;31m[34m'$load_file_e'('visualizador_con_arbol_v3.pl',user,[expand(false),...])[0m[0m[1;31m at c:/program files/swipl/boot/init.pl:2510
+ERROR: [1m  [19] [0m[0m[1;31m[34m'$load_file'('visualizador_con_arbol_v3.pl',user,[expand(false),...])[0m[0m[1;31m at c:/program files/swipl/boot/init.pl:2477
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0mvisualizar(obtenerLicencia(X)).
+
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: obtenerLicencia(_10716)
+
+OBJETIVO      obtenerLicencia(_11762)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(lourdes,1)
+
+SUSTITUCION
+  { X = lourdes, E = 1 }
+
+OBJETIVO      E>=17
+  FALLO       1>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(danna,2)
+
+SUSTITUCION
+  { X = danna, E = 2 }
+
+OBJETIVO      E>=17
+  FALLO       2>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(ana,5)
+
+SUSTITUCION
+  { X = ana, E = 5 }
+
+OBJETIVO      E>=17
+  FALLO       5>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(isabella,12)
+
+SUSTITUCION
+  { X = isabella, E = 12 }
+
+OBJETIVO      E>=17
+  FALLO       12>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=17
+  EXITO       27>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       27=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(micaela)
+========================================
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(pedro,18)
+
+SUSTITUCION
+  { X = pedro, E = 18 }
+
+OBJETIVO      E>=17
+  EXITO       18>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       18=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(pedro)
+========================================
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=17
+  EXITO       38>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       38=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(ramon)
+========================================
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=17
+  EXITO       55>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       55=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(jorge)
+========================================
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(pablo,71)
+
+SUSTITUCION
+  { X = pablo, E = 71 }
+
+OBJETIVO      E>=17
+  EXITO       71>=17  [SI]
+
+OBJETIVO      E=<69
+  FALLO       71=<69  [NO]
+
+  <--- BACKTRACKING desde edad(_10716,_14154)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(julia,80)
+
+SUSTITUCION
+  { X = julia, E = 80 }
+
+OBJETIVO      E>=17
+  EXITO       80>=17  [SI]
+
+OBJETIVO      E=<69
+  FALLO       80=<69  [NO]
+  FALLO       obtenerLicencia(_10716)  [NO]
+
+========================================
+ FIN DE LA BUSQUEDA
+========================================
+[1mtrue.[0m
+
+['parcial 2024.pl'].
+
+
+[1mtrue.[0m
+
+['visualizador_con_arbol.pl'].
+
+
+[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:43:
+Warning:    Redefined static procedure registrar_evento_frame/4
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:43
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:61:
+Warning:    Redefined static procedure obtener_parent/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:61
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:71:
+Warning:    Redefined static procedure obtener_level/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:71
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:85:
+Warning:    Redefined static procedure procesar_evento/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:85
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:191:
+Warning:    Redefined static procedure registrar_evento_invocacion_activa/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:191
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:214:
+Warning:    Redefined static procedure asociar_frame_simbolico/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:214
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:246:
+Warning:    Redefined static procedure simbolico_del_frame/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:246
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:287:
+Warning:    Redefined static procedure registrar_invocacion_call/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:287
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:321:
+Warning:    Redefined static procedure siguiente_id_invocacion/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:321
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:334:
+Warning:    Redefined static procedure objetivo_simbolico_de_call/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:334
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:346:
+Warning:    Redefined static procedure mostrar_invocaciones/0
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:346
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:378:
+Warning:    Redefined static procedure mostrar_call_didactico/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:378
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:406:
+Warning:    Redefined static procedure procesar_unificacion/4
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:406
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:443:
+Warning:    Redefined static procedure registrar_regla_si_corresponde/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:443
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:515:
+Warning:    Redefined static procedure cuerpo_a_lista/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:515
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:530:
+Warning:    Redefined static procedure registrar_objetivos/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:530
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:559:
+Warning:    Redefined static procedure mostrar_objetivos_regla/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:559
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:591:
+Warning:    Redefined static procedure objetivo_simbolico_para/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:591
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:623:
+Warning:    Redefined static procedure mostrar_unificacion_didactica/3
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:623
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:701:
+Warning:    Redefined static procedure es_hecho/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:701
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:705:
+Warning:    Redefined static procedure mismo_predicado/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:705
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:717:
+Warning:    Redefined static procedure mostrar_sustituciones/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:717
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:732:
+Warning:    Redefined static procedure mostrar_pares_sustitucion/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:732
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:760:
+Warning:    Redefined static procedure mostrar_exito/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:760
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:772:
+Warning:    Redefined static procedure mostrar_fallo/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:772
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:779:
+Warning:    Redefined static procedure mostrar_backtracking/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:779
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:793:
+Warning:    Redefined static procedure es_comparacion/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:793
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:812:
+Warning:    Redefined static procedure obtener_info_clausula/4
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:812
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:860:
+Warning:    Redefined static procedure recuperar_clausula/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:860
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:890:
+Warning:    Redefined static procedure leer_clausula_fuente/4
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:890
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:933:
+Warning:    Redefined static procedure buscar_termino_fuente/4
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:933
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:996:
+Warning:    Redefined static procedure escribir_con_nombres/2
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:996
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1017:
+Warning:    Redefined static procedure mostrar_frames/0
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1017
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1058:
+Warning:    Redefined static procedure evento_interesante/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1058
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1072:
+Warning:    Redefined static procedure predicado_visualizador/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1072
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1165:
+Warning:    Redefined static procedure visualizar/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1165
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1228:
+Warning:    Redefined static procedure activar/0
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1228
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1239:
+Warning:    Redefined static procedure desactivar/0
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1239
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1253:
+Warning:    Redefined static procedure ejecutar_todas/1
+Warning:    Previously defined at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1253
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/visualizador_con_arbol.pl:1538:
+Warning:    Singleton variables: [Goal]
+[0m[1mtrue.[0m
+
+visualizar(obtenerLicencia(X)).
+
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: obtenerLicencia(_7492)
+
+OBJETIVO      obtenerLicencia(_8538)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(lourdes,1)
+
+SUSTITUCION
+  { X = lourdes, E = 1 }
+
+OBJETIVO      E>=17
+  FALLO       1>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(danna,2)
+
+SUSTITUCION
+  { X = danna, E = 2 }
+
+OBJETIVO      E>=17
+  FALLO       2>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(ana,5)
+
+SUSTITUCION
+  { X = ana, E = 5 }
+
+OBJETIVO      E>=17
+  FALLO       5>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(isabella,12)
+
+SUSTITUCION
+  { X = isabella, E = 12 }
+
+OBJETIVO      E>=17
+  FALLO       12>=17  [NO]
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=17
+  EXITO       27>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       27=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(micaela)
+========================================
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(pedro,18)
+
+SUSTITUCION
+  { X = pedro, E = 18 }
+
+OBJETIVO      E>=17
+  EXITO       18>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       18=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(pedro)
+========================================
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=17
+  EXITO       38>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       38=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(ramon)
+========================================
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=17
+  EXITO       55>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       55=<69  [SI]
+
+========================================
+ SOLUCION: obtenerLicencia(jorge)
+========================================
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(pablo,71)
+
+SUSTITUCION
+  { X = pablo, E = 71 }
+
+OBJETIVO      E>=17
+  EXITO       71>=17  [SI]
+
+OBJETIVO      E=<69
+  FALLO       71=<69  [NO]
+
+  <--- BACKTRACKING desde edad(_7492,_10600)  [nivel 16]
+
+UNIFICACION
+  edad(X,E)
+= edad(julia,80)
+
+SUSTITUCION
+  { X = julia, E = 80 }
+
+OBJETIVO      E>=17
+  EXITO       80>=17  [SI]
+
+OBJETIVO      E=<69
+  FALLO       80=<69  [NO]
+  FALLO       obtenerLicencia(_7492)  [NO]
+
+========================================
+ FIN DE LA BUSQUEDA
+========================================
+[1mtrue.[0m
+
+mostrar_arbol_hoja.
+
+
+
+========================================
+ ARBOL PARA COPIAR A HOJA
+========================================
+OBJETIVO: obtenerLicencia(_10936)
+REGLA:    edad(X,E), E>=17, E=<69
+
+
+├── edad(lourdes,1)   θ = { X = lourdes, E = 1 }
+│   └── 1>=17  ✗
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(danna,2)   θ = { X = danna, E = 2 }
+│   └── 2>=17  ✗
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(ana,5)   θ = { X = ana, E = 5 }
+│   └── 5>=17  ✗
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(isabella,12)   θ = { X = isabella, E = 12 }
+│   └── 12>=17  ✗
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(micaela,27)   θ = { X = micaela, E = 27 }
+│   ├── 27>=17  ✓
+│   ├── 27=<69  ✓
+│   └── SOLUCION: obtenerLicencia(micaela)  ✓
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(pedro,18)   θ = { X = pedro, E = 18 }
+│   ├── 18>=17  ✓
+│   ├── 18=<69  ✓
+│   └── SOLUCION: obtenerLicencia(pedro)  ✓
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(ramon,38)   θ = { X = ramon, E = 38 }
+│   ├── 38>=17  ✓
+│   ├── 38=<69  ✓
+│   └── SOLUCION: obtenerLicencia(ramon)  ✓
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(jorge,55)   θ = { X = jorge, E = 55 }
+│   ├── 55>=17  ✓
+│   ├── 55=<69  ✓
+│   └── SOLUCION: obtenerLicencia(jorge)  ✓
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(pablo,71)   θ = { X = pablo, E = 71 }
+│   ├── 71>=17  ✓
+│   └── 71=<69  ✗
+│       ↩ BACKTRACKING a edad(X,E)
+
+├── edad(julia,80)   θ = { X = julia, E = 80 }
+│   ├── 80>=17  ✓
+│   └── 80=<69  ✗
+========================================
+ ✓ exito   ✗ fallo   ↩ backtracking
+========================================
+[1mtrue.[0m
+
+['parcial 2024.pl'].
+
+
+[1mtrue.[0m
+
+['visualizador.pl'].
+
+
+[1mtrue.[0m
+
+visualizar(puedeConducir(X)).
+
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: puedeConducir(_19254)
+
+OBJETIVO      puedeConducir(_20320)
+
+REGLA USADA
+  puedeConducir(X):-adulto(X),obtenerLicencia(X)
+
+OBJETIVOS DE LA REGLA
+  1. adulto(X)
+  2. obtenerLicencia(X)
+
+OBJETIVO      adulto(X)
+
+REGLA USADA
+  adulto(X):-edad(X,E),E>=21,E<70
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=21
+  3. E<70
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(lourdes,1)
+
+SUSTITUCION
+  { X = lourdes, E = 1 }
+
+OBJETIVO      E>=21
+  FALLO       1>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(danna,2)
+
+SUSTITUCION
+  { X = danna, E = 2 }
+
+OBJETIVO      E>=21
+  FALLO       2>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(ana,5)
+
+SUSTITUCION
+  { X = ana, E = 5 }
+
+OBJETIVO      E>=21
+  FALLO       5>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(isabella,12)
+
+SUSTITUCION
+  { X = isabella, E = 12 }
+
+OBJETIVO      E>=21
+  FALLO       12>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=21
+  EXITO       27>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       27<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(micaela,27)
+
+SUSTITUCION
+  { X = micaela, E = 27 }
+
+OBJETIVO      E>=17
+  EXITO       27>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       27=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(micaela)
+========================================
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(pedro,18)
+
+SUSTITUCION
+  { X = pedro, E = 18 }
+
+OBJETIVO      E>=21
+  FALLO       18>=21  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=21
+  EXITO       38>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       38<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(ramon,38)
+
+SUSTITUCION
+  { X = ramon, E = 38 }
+
+OBJETIVO      E>=17
+  EXITO       38>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       38=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(ramon)
+========================================
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=21
+  EXITO       55>=21  [SI]
+
+OBJETIVO      E<70
+  EXITO       55<70  [SI]
+
+OBJETIVO      obtenerLicencia(X)
+
+REGLA USADA
+  obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+OBJETIVOS DE LA REGLA
+  1. edad(X,E)
+  2. E>=17
+  3. E=<69
+
+OBJETIVO      edad(X,E)
+
+UNIFICACION
+  edad(X,E)
+= edad(jorge,55)
+
+SUSTITUCION
+  { X = jorge, E = 55 }
+
+OBJETIVO      E>=17
+  EXITO       55>=17  [SI]
+
+OBJETIVO      E=<69
+  EXITO       55=<69  [SI]
+
+========================================
+ SOLUCION: puedeConducir(jorge)
+========================================
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(pablo,71)
+
+SUSTITUCION
+  { X = pablo, E = 71 }
+
+OBJETIVO      E>=21
+  EXITO       71>=21  [SI]
+
+OBJETIVO      E<70
+  FALLO       71<70  [NO]
+
+  <--- BACKTRACKING desde edad(_19254,_24834)  [nivel 17]
+
+UNIFICACION
+  edad(X,E)
+= edad(julia,80)
+
+SUSTITUCION
+  { X = julia, E = 80 }
+
+OBJETIVO      E>=21
+  EXITO       80>=21  [SI]
+
+OBJETIVO      E<70
+  FALLO       80<70  [NO]
+  FALLO       adulto(_19254)  [NO]
+  FALLO       puedeConducir(_19254)  [NO]
+
+========================================
+ FIN DE LA BUSQUEDA
+========================================
+[1mtrue.[0m
+
+mostrar_arbol_hoja.
+
+
+
+========================================
+ ARBOL PARA COPIAR A HOJA
+========================================
+OBJETIVO: puedeConducir(X)
+REGLA:    puedeConducir(X):-adulto(X),obtenerLicencia(X).
+
+
+|   +-- OBJETIVO: adulto(X)
+|   |   REGLA: adulto(X):-edad(X,E),E>=21,E<70
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(lourdes,1)   Sustitucion = { X = lourdes, E = 1 }
+|   |   |   |   +-- 1>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(danna,2)   Sustitucion = { X = danna, E = 2 }
+|   |   |   |   +-- 2>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ana,5)   Sustitucion = { X = ana, E = 5 }
+|   |   |   |   +-- 5>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(isabella,12)   Sustitucion = { X = isabella, E = 12 }
+|   |   |   |   +-- 12>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(micaela,27)   Sustitucion = { X = micaela, E = 27 }
+|   |   |   |   +-- 27>=21  [EXITO]
+|   |   |   |   +-- 27<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(micaela,27)   Sustitucion = { X = micaela, E = 27 }
+|   |   |   |   +-- 27>=17  [EXITO]
+|   |   |   |   +-- 27=<69  [EXITO]
+
+|   +-- SOLUCION: X = micaela  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(pedro,18)   Sustitucion = { X = pedro, E = 18 }
+|   |   |   |   +-- 18>=21  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ramon,38)   Sustitucion = { X = ramon, E = 38 }
+|   |   |   |   +-- 38>=21  [EXITO]
+|   |   |   |   +-- 38<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(ramon,38)   Sustitucion = { X = ramon, E = 38 }
+|   |   |   |   +-- 38>=17  [EXITO]
+|   |   |   |   +-- 38=<69  [EXITO]
+
+|   +-- SOLUCION: X = ramon  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(jorge,55)   Sustitucion = { X = jorge, E = 55 }
+|   |   |   |   +-- 55>=21  [EXITO]
+|   |   |   |   +-- 55<70  [EXITO]
+
+|   +-- OBJETIVO: obtenerLicencia(X)
+|   |   REGLA: obtenerLicencia(X):-edad(X,E),E>=17,E=<69
+
+|   |   +-- OBJETIVO: edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(jorge,55)   Sustitucion = { X = jorge, E = 55 }
+|   |   |   |   +-- 55>=17  [EXITO]
+|   |   |   |   +-- 55=<69  [EXITO]
+
+|   +-- SOLUCION: X = jorge  [EXITO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(pablo,71)   Sustitucion = { X = pablo, E = 71 }
+|   |   |   |   +-- 71>=21  [EXITO]
+|   |   |   |   +-- 71<70  [FALLO]
+|   |   |   `-- BACKTRACKING -> edad(X,E)
+|   |   |   +-- ALTERNATIVA: edad(julia,80)   Sustitucion = { X = julia, E = 80 }
+|   |   |   |   +-- 80>=21  [EXITO]
+|   |   |   |   +-- 80<70  [FALLO]
+|   `-- FALLO OBJETIVO: adulto(X)  [FALLO]
+
+========================================
+ [EXITO] correcto | [FALLO] no cumple
+ BACKTRACKING -> vuelve al punto de eleccion
+========================================
+[1mtrue.[0m
+
