@@ -166,3 +166,36 @@ postorden(7).
 2 9 4 5 6 1 8 7 
 [1mtrue [0m[1m.[0m
 
+make.
+
+
+[1mtrue.[0m
+
+inorden(7).
+
+
+2 4 9 7 5 8 1 6 
+[1mtrue [0m[1m.[0m
+
+postorden(7).
+
+
+2 9 4 5 6 1 8 7 
+[1mtrue [0m[1m.[0m
+
+preorden(7).
+
+
+7 4 2 9 8 5 1 6 
+[1mtrue [0m[1m.[0m
+
+mayor(7, M).
+
+
+M = 9 [1m.[0m
+
+
+.
+[1;31m
+ERROR: Stream user_input:39:1 Syntax error: Unexpected end of clause
+[0m
