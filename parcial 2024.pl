@@ -45,9 +45,9 @@ contarValores([X|Y], C, N) :- X =< C, contarValores(Y,C,N).
 
 /* 5. Describir lo que hace el siguiente predicado. (2 ptos.) */
 
-adivina(X,L1,L2)
+adivina(X,L1,L2).
 adivina(X,[],[]).
 adivina(X,[Y|M],[Y|S]):- X =< Y, adivina(Y,M,S).
 adivina(X,[Y|M],S):- adivina(X,M,S).
 
-/* adivina es un predicado recursivo que compara X con los elementos de una lista y los guarda en otra cuando X es menor o igual a dichos elementos.
+/* adivina es un predicado recursivo que compara X con los elementos de una lista y los guarda en otra cuando X es menor o igual a dichos elementos. */

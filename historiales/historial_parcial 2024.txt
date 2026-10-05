@@ -12643,3 +12643,8 @@ REGLA:    puedeConducir(X):-adulto(X),obtenerLicencia(X).
 ========================================
 [1mtrue.[0m
 
+make.
+
+
+[1mtrue.[0m
+

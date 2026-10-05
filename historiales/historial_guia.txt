@@ -1,0 +1,60 @@
+['parcial 2024.pl'].   
+
+[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:48:17: Syntax error: Operator expected
+[0m[31mWarning: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:51:
+Warning:    Singleton variables: [Y]
+[0m[1;31mERROR: c:/users/mateo/onedrive/documentos/prolog/parcial 2024.pl:0:1: Syntax error: End of file in /* ... */ comment
+[0m[1mtrue.[0m
+
+['visualizador.pl'].
+
+
+[1mtrue.[0m
+
+visualizar(X).   
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: _26116
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [14] [0m[0m[1;31m[34mejecutar_todas(_172)[0m[0m[1;31m
+ERROR: [1m  [13] [0m[0m[1;31m[34msetup_call_cleanup(user:activar,user:ejecutar_todas(_216),user:desactivar)[0m[0m[1;31m at c:/program files/swipl/boot/init.pl:682
+ERROR: [1m  [12] [0m[0m[1;31m[34mvisualizar(_246)[0m[0m[1;31m at c:/users/mateo/onedrive/documentos/prolog/visualizador.pl:1243
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+[0mmostrar_arbol_hoja.     
+
+
+========================================
+ ARBOL PARA COPIAR A HOJA
+========================================
+[1;31mfalse.[0m
+
+mostrar_arbol_hoja.
+
+
+
+========================================
+ ARBOL PARA COPIAR A HOJA
+========================================
+[1;31mfalse.[0m
+
+visualizar(X).
+
+
+
+========================================
+ RESOLUCION PROLOG
+========================================
+Consulta: _4724
+[1;31mERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR: [1m  [14] [0m[0m[1;31m[34mejecutar_todas(_6034)[0m[0m[1;31m
+ERROR: [1m  [13] [0m[0m[1;31m[34msetup_call_cleanup(user:activar,user:ejecutar_todas(_6078),user:desactivar)[0m[0m[1;31m at c:/program files/swipl/boot/init.pl:682
+ERROR: [1m  [11] [0m[0m[1;31m[34mtoplevel_call(user:user: ...)[0m[0m[1;31m at c:/program files/swipl/boot/toplevel.pl:1529
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0m
