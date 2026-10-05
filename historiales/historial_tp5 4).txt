@@ -34,3 +34,34 @@ ultimos(3, [1,2,3,4,5,6], R).
 R = [4, 5, 6] 	[1m;[0m
 [1;31mfalse.[0m
 
+make.
+
+
+[1mtrue.[0m
+
+primeros([1,2,3,4,5,6,7,8], 4).
+
+
+[1;31mERROR: Unknown procedure: user:primeros/2
+ERROR:     However, there are definitions for:
+ERROR:         primeros/3
+[0m[1;31mfalse.[0m
+
+?- primeros(4, [1,2,3,4,5,6,7,8], R).
+
+
+[1;31mERROR: Unknown procedure: (?-)/1
+ERROR:   ?- is the Prolog prompt
+ERROR:   See FAQ at https://www.swi-prolog.org/FAQ/ToplevelMode.html
+ERROR: In:
+ERROR: [1m  [11] [0m[0m[1;31m[34mthrow(error(existence_error(procedure,...),_46514))[0m[0m[1;31m
+ERROR: [1m   [8] [0m[0m[1;31m[34mcorrect_goal((?-primeros(4,...,_46562)),user,['R'=_46574],_46550)[0m[0m[1;31m at c:/program files/swipl/boot/dwim.pl:92
+ERROR: 
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+[0mprimeros(4, [1,2,3,4,5,6,7,8], R).
+
+
+R = [1, 2, 3, 4] 	[1m;[0m
+[1;31mfalse.[0m
+
