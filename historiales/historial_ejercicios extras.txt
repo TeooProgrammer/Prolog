@@ -4,3 +4,13 @@ contarParesNumero(48273, C).
 C = 3 	[1m;[0m
 [1;31mfalse.[0m
 
+contarImpares(33333888888882222, C).
+
+
+[1;31mERROR: Unknown procedure: contarImpares/2 (DWIM could not correct goal)
+[0mcontarImparesNumero(33333888888882222, C).
+
+
+C = 5 	[1m;[0m
+[1;31mfalse.[0m
+
